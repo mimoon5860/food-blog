@@ -1,11 +1,23 @@
+/*---------Basic Typography---------*/
+
 *{
     margin:0;
     padding:0;
     font-family: 'Noto Serif', serif;
 }
-.shop-wraper{
+.flex{
     display:flex;
 }
+.box-sd-border-red{
+    box-shadow: 0px 0px 37px 0px rgba(0,0,0,0.75);
+    border-radius: 20px;
+}
+.orange{
+    color:orange;
+}
+
+/*---------Welcome and shop section---------*/
+
 .welcome-details{
     width: 50%;
     margin:5% 5%;
@@ -17,10 +29,8 @@
     font-size: 70px;
     width:80%;
     margin-top: 20%;
+    padding-bottom: 5%;
     color: #444444;
-}
-.orange{
-    color:orange;
 }
 .welcome-details p{
     width: 80%;
@@ -41,6 +51,12 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/*---------Menu section---------*/
+
+.menu{
+    margin-top: 3%;
+}
 .section-title{
     text-align: center;
     padding: 2%;
@@ -52,60 +68,63 @@
     padding: 5px;
     color: #444444;
 }
-.recipie-items{
-    display:flex;
-    margin:0 7%;
-}
 .single-item{
     width: 30%;
-    box-shadow: 0px 0px 37px 0px rgba(0,0,0,0.75);
-    border-radius: 20px;
-    margin: 30px 20px;
+    margin: 1% 5% 5% 5%;
 }
 .single-item img{
     width:92%;
-    height: 55%;
+    height: 40%;
     padding:15px;
     border-radius: 30px;
 }
 .single-item h2{
     font-size: 30px;
-    padding: 0 10px;
+    padding: 15Px;
     color: #444444;
 }
 .single-item p{
     width: 90%;
-    padding: 0 10px 0 10px;
+    padding: 0 10px 0 20px;
+    line-height: 35px;
+}
+
+/*---------Review section---------*/
+
+
+.review-parts{
+    background: url(images/bg/bg-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5% 0;
 }
 .cook-part{
-    display: flex;
     width: 40%;
-    margin-left: 5%;
-    box-shadow: 0px 0px 37px 0px rgba(0,0,0,0.75);
-    border-radius: 20px;
+    margin-left: 3%;
 }
-.review-parts{
-    display: flex;
-}
-.castomer-part{
-    display: flex;
+.cook-part h2{
+    padding: 30px 0;
+    color: #444444;
 }
 .single-part{
     width:24%;
-    margin-left: 5%;
-    box-shadow: 0px 0px 37px 0px rgba(0,0,0,0.75);
-    border-radius: 20px;
-    padding:1%;
+    margin-left: 4%;
+    padding:2%;
 }
 .single-part img{
     width:90%;
+    height: 60%;
 }
+.single-part h2{
+    padding: 10px 0;
+}
+
+/*---------Social section---------*/
+
 .social-part{
     width: 90%;
     margin: 5%;
-    box-shadow: 0px 0px 37px 0px rgba(0,0,0,0.75);
-    border-radius: 20px;
-    display: flex;
+    padding: 2% 0;
 }
 .single-social-part{
     width: 30%;
@@ -114,6 +133,9 @@
 .single-social-part h1{
     font-size: 50px;
 }
+
+/*---------Footer section---------*/
+
 .footer-part{
     text-align: center;
     background-color: #0B0D17;
