@@ -103,8 +103,15 @@
     margin-left: 3%;
 }
 .cook-part h2{
+    width: 100%;
     padding: 30px 0;
     color: #444444;
+}
+.cook-part p{
+    width: 100%;
+}
+.cook-part img{
+    margin-top: 40px;
 }
 .single-part{
     width:24%;
